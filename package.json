@@ -1,0 +1,11 @@
+{
+    "name": "air-debug-reconnect",
+    "displayName": "Air Debug Reconnect",
+    "description": "Re-attach to Air/Delve when the debug session ends (e.g. after save/rebuild).",
+    "version": "0.1.0",
+    "publisher": "workspace",
+    "engines": { "vscode": "^1.70.0" },
+    "categories": ["Debuggers"],
+    "activationEvents": ["onStartupFinished"],
+    "main": "./extension.js"
+}
